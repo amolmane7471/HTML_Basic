@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Cards Gallery</title>
+		<style>
+			.cards {
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: row;
+				align-items: stretch;
+				/* flex-direction: column; 
+							align-items: flex-end;
+							align-items: flex-start;
+							align-items: center;  */
+			}
+
+			.card {
+				flex: 0 0 200px;
+				margin: 10px;
+				border: 1px solid #ccc;
+				box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+			}
+
+			.card img {
+				max-width: 100%;
+				align-content: center;
+			}
+
+			.card .content {
+				padding: 0 20px 20px;
+			}
+
+			.card .content>button {
+				background: gray;
+				border: 0;
+				color: white;
+				padding: 10px;
+				width: 100%;
+			}
+
+			.card:nth-child(1) {
+				width: 420px;
+			}
+		</style>
+	</head>
+
+	<body class="cards">
+		<article class="card">
+			<img src="../assets/library.jpg" alt="Library">
+			<div class="content">
+				<h3>LIBRARY</h3>
+				<p>A library is a collection of materials, books or media that are accessible 
+                    for use and not just for display purposes. </p>
+				<button>Read More</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/rose.jpg" alt="Flower">
+			<div class="content">
+				<h3>ROSE</h3>
+				<p>Roses are erect, climbing, or trailing shrubs, the stems of which are usually copiously
+                     armed with prickles of various shapes and sizes, commonly called thorns</p>
+				<button>Read More</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/island.jpg" alt="Beach">
+			<div class="content">
+				<h3>Beach</h3>
+				<p>A beach is a landform alongside a body of water which consists of loose particles. 
+                    The particles composing a beach are typically made from rock, such as sand, gravel, shingle, pebbles, etc.,
+                     or biological sources, such as mollusc shells or coralline algae.</p>
+				<button>Read more</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/horse.jpg" alt="Horse">
+			<div class="content">
+				<h3>HORSE</h3>
+				<p>The horse (Equus ferus caballus) is a domesticated, one-toed, hoofed mammal.
+                     It belongs to the taxonomic family Equidae and is one of two extant subspecies of Equus ferus</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/pendulum.jpg" alt="pendulum">
+			<div class="content">
+				<h3></h3>
+				<p>A pendulum is a weight suspended from a pivot so that it can swing freely. When a pendulum is
+                     displaced sideways from its resting, equilibrium position, it is subject to a restoring force
+                      due to gravity that will accelerate it back toward the equilibrium position</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+		<article class="card">
+			<img src="../assets/nature.jpg" alt="Nature">
+			<div class="content">
+				<h3>Nature</h3>
+				<p>
+                Nature, in the broadest sense, is the physical world or universe.
+                 "Nature" can refer to the phenomena of the physical world, and also to life in general.
+                The study of nature is a large, if not the only, part of science.</p>
+				<button>Watch</button>
+			</div>
+		</article>
+
+	</body>
+
+</html>
